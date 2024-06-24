@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="https://use.typekit.net/xao4bwu.css" />
     <title>Palindrome Checker</title>
   </head>
-  <main></main>
   <body>
+    <main>
+      <h1 id="welcome">Welcome to the Palindrome Checker!</h1>
+      <img
+        src="https://hosting.photobucket.com/images/b146/zephyr_doe/tacocat.png"
+        alt="TacoCat says hello"
+      />
+      <figcaption id="img-caption">TacoCat says hello!</figcaption>
+      <h2>What, exactly, is a palindrome?...</h2>
+      <p>
+        A <b>palindrome</b> is a word that is spelled the same both forward and
+        backwards. This includes words with any punctuations or spaces and
+        capitalized words.
+      </p>
+      <div id="palindrome-checker" class="page-section">
+        <h2>Wanna see if your word is a palindrome? Check it here.</h2>
+        <label for="text-input">Enter your word:</label>
+        <input id="text-input" type="text" />
+        <button id="check-btn">Is it a palindrome?</button>
+        <div id="result"></div>
+      </div>
+    </main>
     <script src="palindrome-checker.js"></script>
   </body>
 </html>
