@@ -17,9 +17,45 @@ img {
 }
 
 #img-caption {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 #welcome {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+
+div {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#what-is-palindrome {
+  font-size: 2rem;
+}
+
+#palindrome-definition p {
+  font-size: 1.3rem;
+}
+
+#palindrome-checker {
+  background-color: #03044e;
+  color: #ececfb;
+  border-radius: 10px;
+}
+
+#text-input {
+  border-radius: 5px;
+  text-align: left;
+}
+
+#check-btn {
+  width: 150px;
+  height: 30px;
+  font-weight: 500;
+  color: #03044e;
+  background-color: #ececfb;
+  border-radius: 7px;
 }
