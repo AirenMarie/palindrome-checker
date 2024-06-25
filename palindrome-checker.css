@@ -63,3 +63,8 @@ div {
 #result {
   color: #ececfb;
 }
+
+#word-result {
+  display: none;
+  color: #ececfb;
+}
